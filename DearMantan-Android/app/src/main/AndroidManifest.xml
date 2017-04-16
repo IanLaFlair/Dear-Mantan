@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.neteamindustry.dearmantan">
+
+    <permission
+        android:name="com.neteamindustry.dearmantan.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.neteamindustry.dearmantan.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.DearMantanActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.CobaBalikanActivity"
+            android:label="@string/cobaBalikanActivity" />
+        <activity
+            android:name=".ui.TipsTrikActivity"
+            android:label="@string/tipsTrikActivity" />
+        <activity android:name=".ui.TipsTrikDetailActivity" />
+        <activity
+            android:name=".ui.DaftarMantanActivity"
+            android:label="@string/daftarMantanActivity" />
+        <activity android:name=".ui.DaftarMantanDetailActivity" />
+        <activity
+            android:name=".ui.DaftarMantanFormFormActivity"
+            android:label="@string/daftarMantanFormFormActivity" />
+        <activity
+            android:name=".ui.DearMantanMainActivity"
+            android:label="@string/dearMantanMainActivity"
+            android:theme="@style/AppTheme.Drawer"></activity>
+        <activity android:name=".SplashScreenActivity">
+
+        </activity>
+        <activity android:name=".AboutActiivity"></activity>
+    </application>
+
+</manifest>

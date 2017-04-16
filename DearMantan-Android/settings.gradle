@@ -1,0 +1,6 @@
+include ':app', ':circleimageview-2.0.0'
+//include other modules here
+//include ':core'
+//include ':analytics'
+//include ':push'
+//include ':cloudant'

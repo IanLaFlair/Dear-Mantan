@@ -1,0 +1,40 @@
+
+<resources>
+    <!-- Customizations -->
+
+    <color name="textColor">#4e4a4a</color>
+    <color name="textColorSecondary">#994e4a4a</color>
+    <color name="textColorMuted">#4d4e4a4a</color>
+    <color name="textBarColor">#e9e3e3</color>
+    <color name="colorPrimary">#5596e6</color>
+    <color name="hintSearchBarColor">#99e9e3e3</color>
+    <color name="window_background">#ffebee</color>
+    <color name="colorAccent">#ffebee</color>
+   
+    <!-- background drawable: be sure it has a not too large size/resolution -->
+    <drawable name="activity_background_image">@android:color/transparent</drawable>
+    
+    <!-- toolbar background -->
+    <color name="actionbar_background">#e57373</color>
+
+    <!-- status bar background (android 5.x) -->
+    <color name="primaryDark">#ffd72b2b</color>
+    
+    <!-- list selections -->
+    <color name="selectionColor">#444e4a4a</color>
+
+    <!-- card style -->
+    <drawable name="background_card">@drawable/bg_light_card</drawable>
+
+    <!-- card view -->
+    <color name="cardBackgroundColor">#99ffebee</color>
+
+    <!-- icons -->
+    <drawable name="ic_device_access_call">@drawable/ic_device_access_call_dark</drawable>
+    <drawable name="ic_location_web_site">@drawable/ic_location_web_site_dark</drawable>
+    <drawable name="ic_location_place">@drawable/ic_location_place_dark</drawable>
+    <drawable name="ic_content_email">@drawable/ic_content_email_dark</drawable>
+	<drawable name="ic_keyboard_arrow_right">@drawable/ic_keyboard_arrow_right_dark</drawable>
+
+</resources>
+
